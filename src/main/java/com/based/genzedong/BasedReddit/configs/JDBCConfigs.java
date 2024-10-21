@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 import javax.sql.DataSource;
 
-import static com.based.genzedong.BasedReddit.Constants.POSTGRES_DRIVER_CLASS;
+import static com.based.genzedong.BasedReddit.utils.Constants.POSTGRES_DRIVER_CLASS;
 
 @Configuration
 public class JDBCConfigs {
